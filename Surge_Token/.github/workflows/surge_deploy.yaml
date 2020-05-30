@@ -15,4 +15,4 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run surge
-      run: surge ./ bootcamp_setup_ mudassir-mudassir.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./ bootcamp_setup_mudassir.surge.sh --token ${{secrets.SURGE_TOKEN}}
