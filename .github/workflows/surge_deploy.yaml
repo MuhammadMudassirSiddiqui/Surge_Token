@@ -13,6 +13,6 @@ jobs:
         with:
           node-version: 12
       - name: Install Surge
-        run: npm Install -g surge
+        run: npm install -g surge
       - name: Run surge
         run: surge ./ bootcamp_setup_mudassir.surge.sh --token ${{secrets.SURGE_TOKEN}}
